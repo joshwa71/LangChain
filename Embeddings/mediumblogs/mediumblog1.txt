@@ -1,0 +1,27 @@
+In retrieval-augmented generation (RAG), a language model queries an external database to retrieve relevant information, which it then uses to generate responses. The external database is usually a vector database, where data is represented as vectors in a high-dimensional space.
+
+The steps involved include:
+
+Encoding: Documents in the vector database are encoded into vectors using an encoder (e.g., a neural network). Each vector captures the semantic essence of a document.
+
+Querying: When a query is received, it's also encoded into a vector using a similar or the same encoder. This query vector is then used to search the vector database for the most relevant documents. The search is often done using nearest neighbor algorithms to find the vectors (documents) closest to the query vector in the high-dimensional space.
+
+Retrieving: The most relevant documents (or snippets thereof) are retrieved based on the proximity of their vectors to the query vector. This retrieval is done in real-time, allowing the model to access up-to-date information.
+
+Augmenting: The retrieved documents are used to augment the language model's knowledge, providing additional context or information that helps in generating more informed and accurate responses.
+
+Generating: Finally, the language model generates a response based on both the original query and the retrieved documents. The generation can be done using various techniques, like autoregressive or sequence-to-sequence models.
+
+This approach combines the strengths of both retrieval and generation, enabling the creation of more knowledgeable and contextually aware language models. It's particularly useful in scenarios where the language model needs to leverage external, up-to-date information to provide accurate and informed responses.
+
+Encoding, the first step is: Documents in the vector database, encoded into vectors using an encoder, they are. Captures the semantic essence of a document, each vector does.
+
+Querying, the next step it is: Received, when a query is, into a vector using a similar or the same encoder, it is also encoded. In the high-dimensional space, search the vector database for the most relevant documents, this query vector does. Often done using nearest neighbor algorithms, the search is, to find the vectors (documents) closest to the query vector, it is.
+
+Retrieving, comes after: Based on the proximity of their vectors to the query vector, the most relevant documents (or snippets thereof) are retrieved. Done in real-time, the retrieval is, allowing access to up-to-date information, it does.
+
+Augmenting, follows it does: Augment the language model's knowledge, the retrieved documents do, providing additional context or information that helps in generating more informed and accurate responses, they do.
+
+Generating, the final step it is: Based on both the original query and the retrieved documents, a response the language model generates. Done using various techniques, like autoregressive or sequence-to-sequence models, the generation can be.
+
+Combine the strengths of both retrieval and generation, this approach does, enabling the creation of more knowledgeable and contextually aware language models, it does. Useful in scenarios where leverage external, up-to-date information to provide accurate and informed responses, the language model needs to, it is.
